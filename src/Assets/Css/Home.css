@@ -37,7 +37,7 @@ h1{
 
 .down
 {
-    justify-content: end;
+    /* justify-content: end; */
     display:flex;
 }
 .down1
