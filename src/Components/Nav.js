@@ -1,14 +1,14 @@
 import '../Assets/Css/Nav.css'
 
 import {Link} from 'react-router-dom'
-import {  BiBook } from 'react-icons/bi';
+// import {  BiBook } from 'react-icons/bi';
 function Nav()
 {
  return(
 
     <div className="nav">
       <div className="content1">
-      <BiBook className="icon"/>
+      {/* <BiBook className="icon"/> */}
             <h1>ChApTeRvIsTa
                 </h1>
                 <div className="search">
