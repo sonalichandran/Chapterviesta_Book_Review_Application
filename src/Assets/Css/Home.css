@@ -1,0 +1,86 @@
+body{
+
+    background-color: black;
+}
+.container
+{
+    left:90px;
+    
+    width: 50vw;
+    height: 100vh;
+    
+    
+    position:fixed;
+    
+    
+    
+}
+.image
+{
+    top:0px;
+    right:0;
+    position:fixed;
+    display:flex;
+    height:100vh;
+    margin:0;
+}
+
+
+h1{
+    top:0;
+    left:100px;
+    position:fixed;
+    display:flex;
+    color:white;
+    
+}
+
+.down
+{
+    justify-content: end;
+    display:flex;
+}
+.down1
+{
+    padding-top:250px;
+    padding-right: 440px;
+}
+.view
+{
+    background: #F09819; 
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819); 
+    background: linear-gradient(to right, #EDDE5D, #F09819); 
+    color:black;
+    padding:5px;
+    
+}
+.view {
+    
+    color: black;
+    border: 2px solid black;
+    font-size: larger;
+    font-weight:bolder;
+    top:650px;
+    left:430px;
+    position:fixed;
+    display:flex;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+  .view:hover {
+      background-color: white;
+      color: white;
+    }
+    .all
+    {
+        top:0;
+        left:0;
+        height:100vh;
+        width:80vw;
+        background-color: black;
+        position:fixed;
+        display:flex;
+  }
+  

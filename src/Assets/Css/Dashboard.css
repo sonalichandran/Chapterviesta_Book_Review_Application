@@ -1,0 +1,177 @@
+.side-bar {
+  height: 100vh;
+  width: 320px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  font-family: 'Arial, Helvetica, sans-serif';
+  animation: changeBackgroundColor 5s infinite;
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    background-color:rgb(54, 51, 51);
+  }
+ 
+}
+li{
+  list-style: none;
+  margin-left:10px;
+  transition: color 0.3s ease;
+  color:white;
+ 
+}
+.dash
+{
+  background-color: white;
+}
+.d-c
+{
+  margin-left:10px;
+  top:280px;
+  position:fixed;
+  display:flex;
+}
+.icon-text
+{
+  margin-left: 0px;
+  display:flex;
+  transition: background-color 0.3s;
+  height:30px;
+  width:270px;
+  margin-bottom:23px;
+
+}
+.menu
+{
+  top:10px;
+  left:10px;
+  position:fixed;
+  display:flex;
+}
+.userimg
+{
+  top:130px;
+  left:40px;
+  position:fixed;
+  display:flex;
+  height:90px;
+  width:90px;
+  border-radius: 50px;;
+ 
+}
+.icon-text:hover{
+
+  background: #F09819;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:black;
+  
+
+}
+h3{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: color 0.3s ease;
+}
+
+h3{
+  font-family:'Times New Roman', Times, serif;
+  top:130px;
+  color:white;
+  left:100px;
+  font-weight: bold;
+  position:fixed;
+  display:flex;
+}
+.dt
+{
+  color:white;
+  top:150px;
+  left:800px;
+}
+.review-box
+{
+  top:350px;
+  left:670px;
+  height:200px;
+  width:500px;
+  position:fixed;
+  display:flex;
+  background-color:black;
+  border-radius:7px;
+  color:white;
+  border-color: white;
+  transition:border-color 0.3s;
+  
+}
+.review-box:hover{
+  border-color: #F09819;
+}
+.save
+{
+  background-color: blue;
+  border-radius:5px;
+  color:white;
+  font-size: large;
+  cursor:pointer;
+  height:30px;
+  width:60px;
+  top:590px;
+  left:1100px;
+  position:fixed;
+  display:flex;
+  
+}
+.newyork
+{
+  top:170px;
+  left:150px;
+  position:fixed;
+  display:flex;
+  font-size: large;
+}
+.booknamebox
+{
+  top:260px;
+  left:670px;
+  width:500px;
+  position:fixed;
+  
+  display:flex;
+  background-color: black;
+  height:50px;
+  border-radius:7px;
+  border-color:White;
+  color:white;
+  transition:border-color 0.3s;
+}
+.booknamebox:hover{
+  border-color: #F09819;
+}
+.iicon
+{
+  color:white;
+
+}
+.allicons
+{
+  top:650px;
+  gap:20px;
+  left:55px;
+  position:fixed;
+  display:flex;
+}
+.follow
+{
+  top:600px;
+  left:80px;
+  position:fixed;
+  display:flex;
+
+}
+
