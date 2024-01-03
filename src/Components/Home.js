@@ -64,7 +64,7 @@ function Home()
         </div>
     
        
-        <img src={myImage} className="image"/>
+        <img src={myImage} className="image" alt="img"/>
         
        
       
