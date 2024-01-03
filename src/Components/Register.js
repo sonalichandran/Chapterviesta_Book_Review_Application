@@ -2,7 +2,7 @@ import '../Assets/Css/Register.css'
 import imgr from '../Assets/Image/book4.jpeg'
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
-import {Link,useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 function Register()
 {
     const navigate = useNavigate();

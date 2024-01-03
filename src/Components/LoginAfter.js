@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { Menu } from 'lucide-react';
+import React from 'react';
+import {  useNavigate } from 'react-router-dom';
+
 import '../Assets/Css/Dashboard.css';
 import { Settings2 } from 'lucide-react';
 import userimg from '../Assets/Image/11.jpg'
