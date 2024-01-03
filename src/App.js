@@ -3,7 +3,7 @@ import Login from './Components/Login'
 import Home from './Components/Home'
 import {Route,Routes} from 'react-router-dom'
 import Register from './Components/Register'
-import Dashboard from './Components/Dashboard'
+
 import LoginAfter from './Components/LoginAfter'
 import Bookpage from './Components/Bookpage'
 // import Sample from './Components/Sample'
